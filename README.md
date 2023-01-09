@@ -21,11 +21,11 @@ This Java application was created using Intelli J . Additional library was added
 
 ->𝐌𝐚𝐢𝐧 class
 
-->𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧 class
+->𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐄𝐁𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧 class
 
 ->𝐏𝐚𝐲𝐦𝐞𝐧𝐭 class
 
-->𝐁𝐢𝐥𝐥𝐑𝐞𝐜𝐞𝐢𝐩𝐭 class
+->𝐏𝐫𝐢𝐧𝐭𝐁𝐢𝐥𝐥𝐑𝐞𝐜𝐞𝐢𝐩𝐭 class
 
 ->𝐂𝐚𝐥𝐜𝐮𝐥𝐚𝐭𝐞𝐁𝐢𝐥𝐥 class
 
