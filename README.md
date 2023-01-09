@@ -15,33 +15,33 @@ It lets User perform multiple operations like,...
 
 This Java application was created using Intelli J . Additional library was added for the support of JDBC (Required to setup the connection between the Database and Java Application). It contains 9 different classes which works together to create a better user experience .
 
-->Login class
+->𝐋𝐨𝐠𝐢𝐧 class
 
-->SignUp class
+->𝐒𝐢𝐠𝐧𝐔𝐩 class
 
-->Main class
+->𝐌𝐚𝐢𝐧 class
 
-->RequestConnection class
+->𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧 class
 
-->Payment class
+->𝐏𝐚𝐲𝐦𝐞𝐧𝐭 class
 
-->BillReceipt class
+->𝐁𝐢𝐥𝐥𝐑𝐞𝐜𝐞𝐢𝐩𝐭 class
 
-->CalculateBill class
+->𝐂𝐚𝐥𝐜𝐮𝐥𝐚𝐭𝐞𝐁𝐢𝐥𝐥 class
 
-->ViewRequests class
+->𝐕𝐢𝐞𝐰𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐬 class
 
-->DatabaseConnection class(JDBC - MySQL)
+->𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧 class(JDBC - MySQL)
 
 # Database (My SQL)
 
 Database for this project contains 3 Tables,..
 
-->Login Table (UserName,Password)
+->𝐋𝐨𝐠𝐢𝐧 Table (UserName,Password)
 
-->BillReceipt Table(Name,CustomerNumber,ReceiptNumber,Units,BillDate,Type,Amount,PaymentStatus)
+->𝐁𝐢𝐥𝐥𝐑𝐞𝐜𝐞𝐢𝐩𝐭 Table(Name,CustomerNumber,ReceiptNumber,Units,BillDate,Type,Amount,PaymentStatus)
 
-->Request Table(Name,Address,Phone,Adhar,PAN,Email,CommunicationAdd,
+->𝐑𝐞𝐪𝐮𝐞𝐬𝐭 Table(Name,Address,Phone,Adhar,PAN,Email,CommunicationAdd,
 SupplyAdd,TariffType,SubcatOfTariff,SupplyType,GstNo,Ownership,Adhardoc,Rationdoc,Propertydoc,PropertyTaxdoc,Status)
 
 Java communicates with MySQL tables using JDBC which stands for Java Database Connectivity.
