@@ -3,11 +3,11 @@ This is a protype of website for TNEB(TAMILNADU ELECTRICITY BOARD) management.
 
 It lets User perform multiple operations like,...
 
-1- User can Create his Personal login for security purposes.
+1- User can Create his Personal login for security purpose.
 
 2- User can Request Connection and Calculate their Electricity Bill.
 
-3- User can Pay Electricity Bills.
+3- User can Pay Electricity Bill.
 
 4- User can Generate Bill.
 
