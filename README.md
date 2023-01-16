@@ -1,5 +1,5 @@
 # TNEB Management System
-This is a protype of website for TNEB(TAMILNADU ELECTRICITY BOARD) management.
+A Java application for TNEB(TAMILNADU ELECTRICITY BOARD) management.
 
 It lets User perform multiple operations like,...
 
