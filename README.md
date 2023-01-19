@@ -5,7 +5,7 @@ It lets User perform multiple operations like,...
 
 1- User can Create his Personal login for security purpose.
 
-2- User can Request Connection and Calculate their Electricity Bill.
+2- User can Request Connection(Commercial and Domestic) and Calculate their Electricity Bill.
 
 3- User can Pay Electricity Bill.
 
