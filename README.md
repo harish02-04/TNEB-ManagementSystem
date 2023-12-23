@@ -1,47 +1,48 @@
 # TNEB Management System
-A Java application for TNEB(TAMILNADU ELECTRICITY BOARD) management.
 
-It lets User perform multiple operations like,...
+A Java application for TNEB (Tamil Nadu Electricity Board) management.
 
-1- User can Create his Personal login for security purpose.
+## Overview
 
-2- User can Request Connection(Commercial and Domestic) and Calculate their Electricity Bill.
+The TNEB Management System is a Java application created using IntelliJ IDEA. It facilitates various operations related to TNEB, providing users with features such as user authentication, connection requests, electricity bill calculation and payment, and more.
 
-3- User can Pay Electricity Bill.
+## Features
 
-4- User can Generate Bill.
+1. **User Authentication:**
+   - Users can create personal logins for enhanced security.
 
-# About Project
+2. **Connection Management:**
+   - Request connections for both commercial and domestic purposes.
+   - Calculate electricity bills based on the type of connection.
 
-This Java application was created using Intelli J . Additional library was added for the support of JDBC (Required to setup the connection between the Database and Java Application). It contains 9 different classes which works together to create a better user experience .
+3. **Bill Management:**
+   - Pay electricity bills conveniently through the application.
+   - Generate detailed bills for reference.
 
-->𝐋𝐨𝐠𝐢𝐧 class
+## Project Structure
 
-->𝐒𝐢𝐠𝐧𝐔𝐩 class
+The Java application is organized into several classes, each serving a specific purpose:
 
-->𝐌𝐚𝐢𝐧 class
+- `Login`: Manages user authentication.
+- `SignUp`: Handles user registration.
+- `Main`: The main class that orchestrates the application.
+- `RequestEBConnection`: Allows users to request new connections.
+- `Payment`: Facilitates electricity bill payments.
+- `PrintBillReceipt`: Generates and prints detailed bill receipts.
+- `CalculateBill`: Implements the logic for bill calculation.
+- `ViewRequests`: Displays connection requests and their status.
+- `DatabaseConnection`: Manages the connection to the MySQL database using JDBC.
 
-->𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐄𝐁𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧 class
+## Database Structure
 
-->𝐏𝐚𝐲𝐦𝐞𝐧𝐭 class
+The MySQL database is structured with three tables:
 
-->𝐏𝐫𝐢𝐧𝐭𝐁𝐢𝐥𝐥𝐑𝐞𝐜𝐞𝐢𝐩𝐭 class
+1. **Login Table**
+   - Columns: UserName, Password
 
-->𝐂𝐚𝐥𝐜𝐮𝐥𝐚𝐭𝐞𝐁𝐢𝐥𝐥 class
+2. **BillReceipt Table**
+   - Columns: Name, CustomerNumber, ReceiptNumber, Units, BillDate, Type, Amount, PaymentStatus
 
-->𝐕𝐢𝐞𝐰𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐬 class
+3. **Request Table**
+   - Columns: Name, Address, Phone, Adhar, PAN, Email, CommunicationAdd, SupplyAdd, TariffType, SubcatOfTariff, SupplyType, GstNo, Ownership, Adhardoc, Rationdoc, Propertydoc, PropertyTaxdoc, Status
 
-->𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧 class(JDBC - MySQL)
-
-# Database (My SQL)
-
-Database for this project contains 3 Tables,..
-
-->𝐋𝐨𝐠𝐢𝐧 Table (UserName,Password)
-
-->𝐁𝐢𝐥𝐥𝐑𝐞𝐜𝐞𝐢𝐩𝐭 Table(Name,CustomerNumber,ReceiptNumber,Units,BillDate,Type,Amount,PaymentStatus)
-
-->𝐑𝐞𝐪𝐮𝐞𝐬𝐭 Table(Name,Address,Phone,Adhar,PAN,Email,CommunicationAdd,
-SupplyAdd,TariffType,SubcatOfTariff,SupplyType,GstNo,Ownership,Adhardoc,Rationdoc,Propertydoc,PropertyTaxdoc,Status)
-
-Java communicates with MySQL tables using JDBC which stands for Java Database Connectivity.
