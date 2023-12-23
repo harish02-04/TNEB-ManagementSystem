@@ -4,7 +4,7 @@ A Java application for TNEB (Tamil Nadu Electricity Board) management.
 
 ## Overview
 
-The TNEB Management System is a Java application created using IntelliJ IDEA. It facilitates various operations related to TNEB, providing users with features such as user authentication, connection requests, electricity bill calculation and payment, and more.
+The TNEB Management System is a Java command-line application created using IntelliJ IDEA. It facilitates various operations related to TNEB, providing users with features such as user authentication, connection requests, electricity bill calculation and payment, and more.
 
 ## Features
 
